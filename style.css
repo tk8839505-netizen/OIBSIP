@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: azure;
 }
 header{
-    background-color:#0d6efd;
+    background-color:#252c38;
     color: white;
     padding: 15px 0;
     position: sticky;
@@ -43,7 +46,7 @@ nav ul li a:hover{
     color:greenyellow;
 }
 .hero{
-    background: linear-gradient(to right,rgb(105, 105, 221),#00bfff);
+    background: linear-gradient(to right,rgb(30, 30, 34),#334e57);
     color: white;
     text-align: center;
     padding:100px 20px ;
@@ -60,7 +63,7 @@ nav ul li a:hover{
 }
 .my-button{
     background-color:white;
-    color: #0d6efd;
+    color:#222;
     cursor: pointer;
     border-radius: 10px;
     border: none;
@@ -80,10 +83,12 @@ nav ul li a:hover{
 }
 
 .hero-image img{
-    width:90%px;
-    max-width:100%;
-    border-radius:20px;
-    box-shadow:0 10px 20px rgba(0,0,0,.3);
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+    border: 5px solid #506883;
+    transition: 0.4s;
+
 }
 .about{
   width: 80%;
@@ -94,7 +99,7 @@ nav ul li a:hover{
 }
 #heading{
     font-size: 40px;
-    color: #0d6efd;
+    color:#222;
     margin-bottom: 25px;
 }
 .about p{
@@ -109,7 +114,7 @@ nav ul li a:hover{
 #service-heading{
     margin-bottom: 40px;
     font-size: 40px;
-    color: #0d6efd;
+    color: #222;
 
 
 }
@@ -137,7 +142,7 @@ nav ul li a:hover{
 
 .products h2{
     text-align:center;
-    color:#0d6efd;
+    color:#222;
     font-size:38px;
     margin-bottom:40px;
 }
@@ -178,7 +183,7 @@ nav ul li a:hover{
 }
 
 .product-card h4{
-    color:#0d6efd;
+    color:#222;
     margin-bottom:15px;
 }
 
@@ -186,7 +191,7 @@ nav ul li a:hover{
     margin-bottom:20px;
     padding:12px 25px;
     border:none;
-    background:#0d6efd;
+    background:#222;
     color:white;
     border-radius:25px;
     cursor:pointer;
@@ -209,7 +214,7 @@ nav ul li a:hover{
 }
 
 .contact h2{
-    color: #0d6efd;
+    color:#222;
     margin-bottom: 20px;
     font-size: 40px;
 }
@@ -219,7 +224,7 @@ nav ul li a:hover{
     margin: 10px;
 }
 footer{
-    background: #0d6efd;
+    background: #252c38;
     color: white;
     text-align: center;
     padding: 20px;
