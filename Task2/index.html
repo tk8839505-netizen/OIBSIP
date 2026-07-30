@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="progress-bar"></div>
+    
+    <header>
+
+        <nav>
+
+            <div class="logo">
+                Tushar Kumar
+            </div>
+
+            <ul>
+                 
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+               <div class="menu-toggle">
+
+                   ☰
+
+               </div>
+
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+       
+        <div class="hero-content">
+
+           <h3>Hello, I'm</h3>
+
+           <h1>Tushar Kumar</h1>
+
+           <h2 id="typing-text">Web developer</h2>
+
+           <div class="buttons">
+
+              <a href="#" class="btn">Hire Me</a>
+
+              <a href="resume/Resume.pdf" class="btn">Download resume</a>
+
+           </div>
+
+        </div>
+
+        <div class="hero-image">
+
+           <img src="images/profile.jpg" alt="profile image">
+
+        </div>
+    </section>
+
+    <section id="about" class="about">
+
+        <div class="about-container">
+
+           <h2>About Me</h2>
+
+           <p>
+
+              I am a passionate Web Developer who enjoys creating modern, responsive, and user-friendly websites. I love learning new technologies and continuously improving my skills.
+
+           </p>
+
+           <div class="about-info">
+
+            <p><strong>Name :</strong>Tushar Kumar</p>
+            <p><strong>Email :</strong>tk8839505@gmail.com</p>
+            <p><strong>Locaion :</strong>Uttarakhand</p>
+            <p><strong>Education :</strong>B.Tech</p>
+
+           </div>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+
+        <div class="skills-container">
+
+            <h2>My Skills</h2>
+
+            <div class="skills-list">
+
+               <div class="skill">
+
+                <h3>HTML</h3>
+
+               </div>
+
+               <div class="skill">
+                  
+                 <h3>CSS</h3>
+
+               </div>
+
+               <div class="skill">
+
+                <h3>JavaScript</h3>
+
+               </div>
+
+               <div class="skill">
+
+                <h3>Bootstrap</h3>
+
+               </div>
+
+                <div class="skill">
+
+                <h3>Git</h3>
+
+               </div>
+
+                <div class="skill">
+
+                <h3>GitHub</h3>
+
+               </div>
+            </div>  
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+
+        <div class="projects-container">
+
+           <h2>My Project</h2>
+
+           <div class="project-list">
+
+            <div class="project-card">
+
+               <img src="images/port.png" alt="Portfolio website">
+
+               <h3>Portfolio Website</h3>
+
+               <p class="tech">
+
+                  HTML . CSS . JavaScript
+
+               </p>
+
+               <p class="para">
+
+                 A responsive personal portfolio website showcasing my skills, projects and contact information.
+
+               </p>
+
+               <div class="project-buttons">
+
+                 <a href="#"  class="btn" target="_blank">Live Demo</a>
+
+                 <a href="https://github.com/tk8839505-netizen/Portfolio" class="btn">GitHub</a>
+
+               </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/landing-page.png" alt="landing page">
+
+                <h3>Landing page</h3>
+
+                <p class="tech">
+
+                 HTML . CSS
+
+                </p>
+
+                <p class="para">
+
+                   A modern and responsive landing page designed using HTML and CSS with a clean user interface and mobile-friendly layout.
+
+                </p>
+
+                <div class="project-buttons">
+
+                    <a href="#" class="btn">Live Demo</a>
+
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
+           </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+
+        <div class="contact-container">
+
+             <h2>Contact Me</h2>
+
+             <form id="contactForm">
+
+                <div class="input-group">
+
+                  <label for="name">
+                    Name
+                  </label>
+
+                  <input type="text" 
+                  id="name" 
+                  placeholder="Enter your name" >
+
+                  <small class="error" id="nameError"></small>
+
+                </div>
+
+                <div class="input-group">
+
+                   <label for="email">
+                     Email
+                   </label>
+
+                   <input 
+                      type="email"  
+                      id="email"
+                      placeholder="Enter your email">
+
+                      <small class="error" id="emailError"></small>
+
+                </div>
+
+                <div class="input-group">
+
+                   <label for="subject">
+                       Subject
+                   </label>
+
+                   <input 
+                     type="text" 
+                     id="subject"
+                     placeholder=" Enter subject">
+
+                     <small class="error" id="subjectError"></small>
+
+                </div>
+
+                <div class="input-group">
+
+                    <label for="message">
+                          Message
+                    </label>
+
+                    <textarea 
+                      id="message"
+                      rows="6"
+                      placeholder="Write your message">
+                    </textarea>
+                     
+                    <small class="error" id="messageError"></small>
+
+                </div>
+
+                <button type="submit" class="btn">
+
+                    Send Message
+
+                </button>
+
+                <div id="successMessage" class="success-message">
+
+                  ✔ Message Sent Successfully!
+
+                </div>
+
+             </form>
+        </div>
+    </section>
+
+
+    <footer>
+       
+        <div class="footer-container">
+
+           <p>
+
+            @ 2026 Tushar Kumar . All Rights Reserved.
+
+           </p>
+
+           <div class="social-links">
+
+            <a href="https://github.com/tk8839505-netizen" target="_blank">
+
+                GitHub
+
+            </a>
+
+            <a href="https://www.linkedin.com/in/tushar-kumar-cse/" target="_blank">
+
+                LinkedIn
+
+            </a>
+
+            <a href="mailto:tk8839505@gmail.com">
+
+                Email
+
+            </a>
+
+           </div>
+
+           <p>
+
+             Made with using HTML, CSS & JavaScript
+
+           </p>
+
+        </div>
+
+    </footer>
+
+    <button id="topBtn">↑</button>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
