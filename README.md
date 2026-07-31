@@ -114,6 +114,14 @@ OIBSIP/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+
+
+│
+├── screenshots/
+│     ├── Task1
+│     ├── Task2
+│     └── Task3
+│
 ```
 
 🔗 GitHub
