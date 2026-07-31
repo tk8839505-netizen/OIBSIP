@@ -1,20 +1,136 @@
-# OIBSIP
-OIBSIP internship(web development)
-# Landing Page
+#  OIBSIP Web Development Projects
 
-This is my Level 1 Task 1 of Oasis Infobyte Web Development Internship.
+Welcome to my **Oasis Infobyte Web Development and Designing Internship (OIBSIP)** repository.
 
-# Technologies Used
-- HTML
-- CSS
+This repository contains the projects I developed during my internship using **HTML5, CSS3, and Vanilla JavaScript**.
 
-# Features
-- Responsive Design
-- Navigation Bar
+---
+
+### 🌐 Live Demo
+
+ https://tk8839505-netizen.github.io/OIBSIP/
+
+ 
+
+
+#  Projects
+
+##  Task 1 - Landing Page
+
+A responsive landing page for **Tushar Mobile Store**.
+
+### Features
+
+- Responsive Navigation Bar
 - Hero Section
+- About Section
 - Services Section
-- Products Section
+- Product Section
 - Contact Section
-- Footer
+- Mobile Friendly Design
+- Modern UI
 
-Created by: Tushar Kumar
+###  Technologies Used
+
+- HTML5
+- CSS3
+
+
+##  Task 2 - Personal Portfolio
+
+A responsive personal portfolio website to showcase my profile, skills, projects, and contact information.
+
+###  Features
+
+- Hero Section
+- About Me
+- Skills
+- Projects
+- Resume
+- Contact
+- Social Media Links
+- Responsive Design
+
+###  Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+
+##  Task 3 - Temperature Converter
+
+A responsive Temperature Converter built using **Vanilla JavaScript**.
+
+###  Features
+
+- Celsius ⇄ Fahrenheit
+- Celsius ⇄ Kelvin
+- Fahrenheit ⇄ Kelvin
+- Input Validation
+- Swap Button
+- Reset Button
+- Enter Key Support
+- Responsive Design
+- Attractive User Interface
+
+###  Technologies Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+
+#  Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+
+---
+
+# 📁 Folder Structure
+
+```
+OIBSIP/
+
+│── index.html
+│── style.css
+│── README.md
+
+├── Task1/
+│   ├── index.html
+│   ├── style.css
+│   └── images/
+
+├── Task2/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── images/
+│   └── resume.pdf
+
+├── Task3/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+```
+
+🔗 GitHub
+
+https://github.com/tk8839505-netizen/OIBSIP
+
+
+# Author
+
+**Tushar Kumar**
+
+📍 Gaya, Bihar, India
+
+📧 Email: **tk8839505@gmail.com**
+
+
+🔗 LinkedIn
+
+https://www.linkedin.com/in/tushar-kumar-cse/
+
