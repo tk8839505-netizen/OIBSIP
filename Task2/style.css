@@ -108,6 +108,11 @@ nav ul li a.active{
     color: #0077ff;
     margin-bottom: 20px;
 }
+#typing-text{
+
+    display: inline-block;
+    min-width: 300px;
+}
 .buttons{
 
     display: flex;
