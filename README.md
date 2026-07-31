@@ -124,10 +124,6 @@ OIBSIP/
 │
 ```
 
-🔗 GitHub
-
-https://github.com/tk8839505-netizen/OIBSIP
-
 
 # Author
 
@@ -136,6 +132,10 @@ https://github.com/tk8839505-netizen/OIBSIP
 📍 Gaya, Bihar, India
 
 📧 Email: **tk8839505@gmail.com**
+
+🔗 GitHub
+
+https://github.com/tk8839505-netizen/OIBSIP
 
 
 🔗 LinkedIn
