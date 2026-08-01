@@ -51,13 +51,14 @@ convertbtn.addEventListener("click",()=>{
 
         resultValue.style.color = "red";
         successMessage.style.display = "none";
-        result.textContent = "Temperature cannot be below -273.15°C.";
+        resultValue.textContent = "Temperature cannot be below -273.15°C.";
         return;
     }
     if(temperature > 10000){
 
         resultValue.style.color = "red";
         resultValue.textContent = "please enter a realistic temperature.";
+        successMessage.style.display = "none";
         return;
     }
     resultValue.style.color = "green";
@@ -79,7 +80,7 @@ convertbtn.addEventListener("click",()=>{
     else if(from === "celsius" && to === "kelvin"){
 
         resultValueTemperature = temperature + 273.15;
-        resultValue.textContent = resulValuetTemperature.toFixed(2) + "K";
+        resultValue.textContent = resultValueTemperature.toFixed(2) + " K";
         successMessage.style.display = "block";
     }
     else  if(from === "kelvin" && to === "celsius"){
@@ -91,7 +92,7 @@ convertbtn.addEventListener("click",()=>{
     else if(from === "fahrenheit" && to === "kelvin"){
 
         resultValueTemperature = (temperature -32) *5/9 + 273.15;
-        resultValue.textContent = resultValueTemperature.toFixed(2) + "K"
+        resultValue.textContent = resultValueTemperature.toFixed(2) + " K"
         successMessage.style.display = "block";
     }
     else if(from === "kelvin" && to === "fahrenheit"){
@@ -103,6 +104,7 @@ convertbtn.addEventListener("click",()=>{
     }else if(from === to){
 
         resultValue.textContent = temperature + "° " + from;
+        successMessage.style.display = "block";
     }
 });
 
@@ -120,6 +122,6 @@ temperatureInput.addEventListener("keydown",(event)=>{
     
     if(event.key === "Enter"){
 
-         convertBtn.click();
+         convertbtn.click();
     }
 });
